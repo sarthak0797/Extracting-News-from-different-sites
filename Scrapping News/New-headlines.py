@@ -16,7 +16,7 @@ for i in range(len(str)):
         a = 0
         for j in range(len(tags)):
                 if re.search(str[i], tags[j] , re.IGNORECASE):
-                        if(j < len(news)):
+                        if(j < len(news) and len(news[j]) > 9):
                                 print news[j]
                                 a += 1
                 elif (j < len(news) and re.search(str[i], news[j] , re.IGNORECASE)):
