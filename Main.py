@@ -24,6 +24,8 @@ for j in range(len(keys)) :
 
         print i
 
+    print "\n"
+
     str = []
 
     print "News From CNN\n"
@@ -31,5 +33,7 @@ for j in range(len(keys)) :
     str = bbc.get_news(str,keys[j])
 
     for i in str:
+
         print i
+
     print "\n"
