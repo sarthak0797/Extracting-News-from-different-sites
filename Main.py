@@ -32,3 +32,4 @@ for j in range(len(keys)) :
 
     for i in str:
         print i
+    print "\n"
